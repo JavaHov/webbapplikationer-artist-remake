@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login members</title>
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+
+<section class="grid-container">
+
+    <main>
+        <article>
+            <div class="login_page">
+            <p><h3>LOGIN FÖR MEDLEMMAR.</h3><br></p>
+            <p><h4>Ange namn, e-post och lösenord:</h4></p>
+
+            <form name="olasForm" onsubmit="return validateForm()">
+                <label for="name">namn:</label><br>
+                <input type="text" id="name" required><br>
+                <label for="email">e-post:</label><br>
+                <input type="email" id="email" required><br>
+                <label for="password">lösenord:</label><br>
+                <input type="password" id="password" required>
+                <input type="submit" value="login" id="login">
+            </form>
+    </div>
+        </article>
+        <article>
+            <img src="img/db3.jpg" alt="" class="start_img">
+        </article>
+    </main>
+
+    <script src="js/login.js"></script>
+
+</section>
+</body>
+</html>

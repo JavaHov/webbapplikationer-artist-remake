@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+
+<section class="grid-container">
+
+    <main>
+        <article>
+            <form_container>
+                <container_item id="welcome"><h2>VÄLKOMMEN!</h2></container_item>
+                <br>
+                <container_item><h4>Välj skiva.</h4></container_item>
+                <container_item>
+                    <form id="recordsForm">
+                        <select id="records" onchange="changeImage()">
+                            <option value="dbearthling">Earthling</option>
+                            <option value="dbhours">Hours</option>
+                            <option value="dbheathen">Heathen</option>
+                            <option value="dbbuddhaofs">Buddha of Suburbia</option>
+                        </select>
+
+                        <br>
+                        <br>
+                    </form>
+
+                </container_item>
+                <br>
+                <container_item><input type="checkbox" id="terms"><label> Godkänn köpvillkoren!</label></container_item>
+                <br>
+                <container_item><input type="button" id="order" value="Beställ"></container_item>
+                <br>
+                <br>
+                <container_item><label id="presentation"></label></container_item>
+                <ul id="recordlist"></ul>
+                <container_item></container_item>
+
+            </form_container>
+        </article>
+        <article>
+            <img src="img/db2.jpg" alt="" class="start_img" id="record_images"/>
+        </article>
+
+        <article><a href="index.html">till startsidan...</a></article>
+
+    </main>
+<br>
+<footer>
+
+</footer>
+
+<script src="js/webshop.js"></script>
+
+</section>
+</body>
+</html>
