@@ -5,9 +5,6 @@ var jPassword = "";
 var jEmail = "";
 
 
-
-
-
 // Hade först 'fetch' inuti 'validateForm()' men det kändes som om json-filen inte hann läsas in.
 // När jag la 'fetch' utanför funkar det...
 fetch(url)

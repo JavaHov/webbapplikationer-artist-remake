@@ -1,6 +1,5 @@
 'use strict';
 
-const form = document.querySelector("#recordsForm");
 const selectMenu = document.querySelector("#records");
 const termsCheckbox = document.querySelector("#terms");
 const submitButton = document.querySelector("#order");
